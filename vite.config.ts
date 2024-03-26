@@ -8,4 +8,5 @@ export default defineConfig({
   build: {
     target: browserslistToEsbuild(),
   },
+  base: "/selsup-test-project/",
 });
